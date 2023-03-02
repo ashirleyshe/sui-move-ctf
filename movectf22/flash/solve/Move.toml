@@ -1,0 +1,12 @@
+[package]
+name = "solve"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+movectf = { local = "../ctf" }
+
+[addresses]
+solve =  "0x0"
+sui =  "0000000000000000000000000000000000000002"
+movectf = "0xc3c69030e1b4c3150c7e6469df711cdb3bea31c9"

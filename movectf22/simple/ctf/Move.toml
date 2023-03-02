@@ -1,0 +1,11 @@
+[package]
+name = "ctf"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+sui = "0x2"
+ctf = "0xc70f33fde08f8a8d1510f6c4dc21d2f8c458fe0a"
+game = "0xc70f33fde08f8a8d1510f6c4dc21d2f8c458fe0a"
