@@ -1,1 +1,0 @@
-# sui-move-ctf
